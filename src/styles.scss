@@ -1,0 +1,157 @@
+// FONTS
+@font-face {
+  font-family: 'Roboto Regular';
+  font-style: normal;
+  // font-weight: 400;
+  src: url('./assets/fonts/roboto/Roboto-Regular.ttf');
+}
+
+$font-family-base: "Roboto Regular", sans-serif !default;
+
+body{
+  font-family: "Roboto Regular" !important;
+  // font-weight: 400 !important;
+}
+
+h1, h2, button {
+  font-family: "Roboto Regular" !important;
+}
+
+p{
+  font-family: "Roboto Regular" !important;
+}
+
+
+// Common css for headings
+
+.heading-container{
+  // margin-top: 50px;
+
+  .section-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: ghostwhite;
+  }
+
+  .alternate-heading{
+    color: teal !important;
+  }
+
+  .section-heading:after{
+      content: "";
+      display: block;
+      height: 4px;
+      width: 50px;
+      background-color: teal;
+      margin: 10px auto 20px;
+  }
+
+}
+
+
+// Generic paddings and margin
+.margin-auto{
+  margin: auto;
+}
+.mb0{
+  margin-bottom:0px;
+}
+.ptm{
+  padding-top: 30px;
+}
+
+.prsm{
+  padding-right: 20px; 
+}
+
+.plsm{
+  padding-left: 20px; 
+}
+.pbsm{
+  padding-bottom:20px;
+}
+.mtm{
+  margin-top: 30px;
+}
+
+.mbl{
+  margin-bottom: 50px; 
+}
+
+
+// generic color css
+
+.white-text{
+  color: white;
+}
+
+.teal-text{
+  color: teal;
+}
+
+// /* ==================================================
+//   Elements
+//   ================================================== */
+.btn {
+  background: teal;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  color: #fff;
+  padding: 15px 45px;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom right, #F5793F, #FBE8A6);
+  color: #fff;
+}
+
+.btn:focus {
+  color: #fff;
+}
+
+.btn-ghost {
+  border: 3px solid #fff;
+  background-color: transparent;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  color: #199EB8;
+}
+
+section {
+  padding: 85px 0;
+}
+
+.card {
+  position: relative;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.scrolltop {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #199EB8;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.scrolltop:hover, .scrolltop:active, .scrolltop:focus {
+  color: #fff !important;
+  opacity: .75;
+}

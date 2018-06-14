@@ -1,0 +1,76 @@
+// .stats-row {
+//   margin-top: 65px;
+// }
+
+// .stats-col .circle {
+//   display: inline-block;
+//   width: 160px;
+//   height: 160px;
+//   font-family: "Raleway", Helvetica, Arial, sans-serif;
+//   font-weight: 500;
+//   color: #666;
+//   border: 6px solid #199EB8;
+//   border-radius: 50%;
+//   padding: 55px 25px 0 25px;
+//   position: relative;
+// }
+
+// .stats-col .circle .stats-no {
+//   color: #fff;
+//   width: 70px;
+//   height: 70px;
+//   line-height: 70px;
+//   top: -25px;
+//   right: -15px;
+//   font-family: "Raleway", Helvetica, Arial, sans-serif;
+//   font-size: 18px;
+//   background-color: #E04F00;
+//   position: absolute;
+//   border-radius: 50%;
+//   font-weight: 700;
+// }
+
+#aboutUs{
+    padding-top: 72px;
+}
+
+
+.about-us-details{
+    font-size: 18px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url(../../assets/img/parallax-one-edit.jpg);
+    // background: linear-gradient(to bottom right, #F5793F, #FBE8A6);
+    /* Full height */
+    height: 20vmax; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .mission{
+        font-size: 20px;
+        padding: 0px 50px;
+        text-align: center;
+    }
+
+
+}
+.inner-bulb{
+    // background-image: url(../../assets/img/bulb2.png);
+    height: 5vmax!important;
+    width: 5vmax!important;
+}
+
+
+// section{
+//     padding:50px !important;
+// }

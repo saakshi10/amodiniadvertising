@@ -1,0 +1,114 @@
+#ourServices{
+    padding-top: 72px;
+}
+
+
+.service {
+    position: relative;
+    padding: 40px 45px 40px 40px;
+    margin: 25px 0px;
+    border: 1px solid #EEE;
+    box-shadow: 7px 7px 16px teal;
+
+    img{
+        // position: absolute;
+        // left: 5px;
+        // top: 30px;
+        height:60px;
+        width:60px;
+        // background: white;
+        // background: linear-gradient(to bottom right, #F5793F, #FBE8A6);
+
+        // text-align: center;
+        // font-size: 32px;
+        // color: teal;
+        // border-radius: 50%;
+    }
+
+    h3 {
+        -webkit-transition: 0.2s color;
+        transition: 0.2s color;
+        font-weight: 500px;
+        font-size: 27px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+}
+
+.service:after {
+    content: "";
+    background-color: teal;
+    //border: 1px solid teal;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.service:hover:after {
+    width: 100%;
+    // border: 2px solid teal;
+}
+
+
+.align-center{
+    text-align: center!important;
+}
+
+.service:hover {
+    border: 1px solid teal;
+    box-shadow: none;
+
+    i, p, h3,img {
+        color:white;
+    }
+    
+}
+
+
+/*------------------------------------*\
+	Numbers
+\*------------------------------------*/
+
+.number {
+    text-align: center;
+    margin: 15px 0px;
+
+    i{
+        color: teal;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .info-text{
+        font-size: 18px;
+    }
+
+}
+
+.section{
+    
+    background-image: url(../../assets/img/parallax-one-edit.jpg);
+    // background: linear-gradient(to bottom right, #F5793F, #FBE8A6);
+    /* Full height */
+    height: 18vmax; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 0px;
+}
